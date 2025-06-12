@@ -241,7 +241,7 @@ Status indicators can be globally enabled by setting `appConfig.statusCheck: tru
 
 > For full widget documentation, see: [**Widgets**](./docs/widgets.md)
 
-You can display dynamic content from services in the form of widgets. There are several pre-built widgets availible for showing useful info, and integrations with commonly self-hosted services, but you can also easily create your own for almost any app.
+You can display dynamic content from services in the form of widgets. There are several pre-built widgets available for showing useful info, and integrations with commonly self-hosted services, but you can also easily create your own for almost any app.
 
 
 <p align="center">
@@ -527,16 +527,16 @@ Huge thanks to the sponsors helping to support Dashy's development!
 <tr>
     <td align="center">
         <a href="https://github.com/vincentkoc">
-            <img src="https://avatars.githubusercontent.com/u/25068?v=4" width="80;" alt="vincentkoc"/>
+            <img src="https://avatars.githubusercontent.com/u/25068?u=fbd5b2d51142daa4bdbc21e21953a3b8b8188a4a&v=4" width="80;" alt="vincentkoc"/>
             <br />
             <sub><b>Vincent Koc</b></sub>
         </a>
     </td>
     <td align="center">
-        <a href="https://github.com/tbjers">
-            <img src="https://avatars.githubusercontent.com/u/1117052?v=4" width="80;" alt="tbjers"/>
+        <a href="https://github.com/BrianCurliss">
+            <img src="https://avatars.githubusercontent.com/u/1222949?v=4" width="80;" alt="BrianCurliss"/>
             <br />
-            <sub><b>Torgny Bjers</b></sub>
+            <sub><b>Brian Curliss</b></sub>
         </a>
     </td>
     <td align="center">
@@ -544,13 +544,6 @@ Huge thanks to the sponsors helping to support Dashy's development!
             <img src="https://avatars.githubusercontent.com/u/2841780?u=747e554b3a7f12eb20b7910e1c87d817844f714f&v=4" width="80;" alt="AnandChowdhary"/>
             <br />
             <sub><b>Anand Chowdhary</b></sub>
-        </a>
-    </td>
-    <td align="center">
-        <a href="https://github.com/shrippen">
-            <img src="https://avatars.githubusercontent.com/u/2873570?v=4" width="80;" alt="shrippen"/>
-            <br />
-            <sub><b>Shrippen</b></sub>
         </a>
     </td>
     <td align="center">
@@ -566,15 +559,15 @@ Huge thanks to the sponsors helping to support Dashy's development!
             <br />
             <sub><b>Ulises Gascón</b></sub>
         </a>
-    </td></tr>
-<tr>
+    </td>
     <td align="center">
         <a href="https://github.com/digitalarche">
             <img src="https://avatars.githubusercontent.com/u/6546135?u=564756d7f44ab2206819eb3148f6d822673f5066&v=4" width="80;" alt="digitalarche"/>
             <br />
             <sub><b>Digital Archeology</b></sub>
         </a>
-    </td>
+    </td></tr>
+<tr>
     <td align="center">
         <a href="https://github.com/InDieTasten">
             <img src="https://avatars.githubusercontent.com/u/7047377?u=8d8f8017628b38bc46dcbf3620e194b01d3fb2d1&v=4" width="80;" alt="InDieTasten"/>
@@ -609,14 +602,6 @@ Huge thanks to the sponsors helping to support Dashy's development!
             <br />
             <sub><b>HeliXZz</b></sub>
         </a>
-    </td></tr>
-<tr>
-    <td align="center">
-        <a href="https://github.com/patvdv">
-            <img src="https://avatars.githubusercontent.com/u/12430107?u=e8911c2fb91af4d30432f76da8c40927b2830bd7&v=4" width="80;" alt="patvdv"/>
-            <br />
-            <sub><b>Patrick Van Der Veken</b></sub>
-        </a>
     </td>
     <td align="center">
         <a href="https://github.com/mryesiller">
@@ -624,14 +609,8 @@ Huge thanks to the sponsors helping to support Dashy's development!
             <br />
             <sub><b>Göksel Yeşiller</b></sub>
         </a>
-    </td>
-    <td align="center">
-        <a href="https://github.com/sushibait">
-            <img src="https://avatars.githubusercontent.com/u/26634535?v=4" width="80;" alt="sushibait"/>
-            <br />
-            <sub><b>Shiverme Timbers</b></sub>
-        </a>
-    </td>
+    </td></tr>
+<tr>
     <td align="center">
         <a href="https://github.com/undefined">
             <img src="" width="80;" alt="undefined"/>
@@ -640,20 +619,12 @@ Huge thanks to the sponsors helping to support Dashy's development!
         </a>
     </td>
     <td align="center">
-        <a href="https://github.com/semiceau">
-            <img src="https://avatars.githubusercontent.com/u/50425951?u=f8c386b966312769f559422adf0dbc7e2f116258&v=4" width="80;" alt="semiceau"/>
+        <a href="https://github.com/OlliVHH">
+            <img src="https://avatars.githubusercontent.com/u/84959562?v=4" width="80;" alt="OlliVHH"/>
             <br />
-            <sub><b>GT</b></sub>
+            <sub><b>HamburgerJung</b></sub>
         </a>
     </td>
-    <td align="center">
-        <a href="https://github.com/Bastii717">
-            <img src="https://avatars.githubusercontent.com/u/53431819?u=604977bed6ad6875ada890d0d3765a4cacc2fa14&v=4" width="80;" alt="Bastii717"/>
-            <br />
-            <sub><b>Bastii717</b></sub>
-        </a>
-    </td></tr>
-<tr>
     <td align="center">
         <a href="https://github.com/frankdez93">
             <img src="https://avatars.githubusercontent.com/u/87549420?v=4" width="80;" alt="frankdez93"/>
@@ -666,13 +637,6 @@ Huge thanks to the sponsors helping to support Dashy's development!
             <img src="https://avatars.githubusercontent.com/u/128325650?v=4" width="80;" alt="st617"/>
             <br />
             <sub><b>St617</b></sub>
-        </a>
-    </td>
-    <td align="center">
-        <a href="https://github.com/nrvo">
-            <img src="https://avatars.githubusercontent.com/u/151435968?u=e1dcb307fd0efdc45cddbe9490a7b956e4da6835&v=4" width="80;" alt="nrvo"/>
-            <br />
-            <sub><b>Nrvo</b></sub>
         </a>
     </td>
     <td align="center">

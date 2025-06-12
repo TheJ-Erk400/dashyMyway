@@ -40,6 +40,7 @@ Dashy has support for displaying dynamic content in the form of widgets. There a
   - [Mvg Connection](#mvg-connection)
   - [Custom search](#custom-search)
   - [Rescuetime overview](#rescuetime-overview)
+  - [Minecraft Server](#minecraft-server)
 - **[Self-Hosted Services Widgets](#self-hosted-services-widgets)**
   - [System Info](#system-info)
   - [Cron Monitoring](#cron-monitoring-health-checks)
@@ -706,7 +707,7 @@ Display current FX rates in your native currency. Hover over a row to view more 
 
 Counting down to the next day off work? This widget displays upcoming public holidays for your country. Data is fetched from [Enrico](http://kayaposoft.com/enrico/)
 
-Note, config for this widget is case-sensetive (see [#1268](https://github.com/Lissy93/dashy/issues/1268))
+Note, config for this widget is case-sensitive (see [#1268](https://github.com/Lissy93/dashy/issues/1268))
 
 <p align="center"><img width="400" src="https://i.ibb.co/VC6fZqn/public-holidays.png" /></p>
 
@@ -791,7 +792,7 @@ Or
 
 ### Sports Scores
 
-Show recent scores and upcoming matches from your favourite sports team. Data is fetched from [TheSportsDB.com](https://www.thesportsdb.com/). From the UI, you can click any other team to view their scores and upcoming games, or click a league name to see all teams.
+Show recent scores and upcoming matches from your favorite sports team. Data is fetched from [TheSportsDB.com](https://www.thesportsdb.com/). From the UI, you can click any other team to view their scores and upcoming games, or click a league name to see all teams.
 
 <p align="center"><img width="400" src="https://i.ibb.co/8XhXGkN/sports-scores.png" /></p>
 
@@ -1375,6 +1376,45 @@ Show an overview of how you have spent your time for the current day.
 - **Price**: 🟠 Depends on user subscription 
 - **Host**: [RescueTime](https://www.rescuetime.com)
 - **Privacy**: _See [RescueTime Privacy](https://www.rescuetime.com/privacy)_
+
+---
+
+### Minecraft Server
+
+Show minecraft server status
+
+<p align="center"><img width="380" src="https://i.ibb.co/hcmd4Wf/minecraft-widget.png" /></p>
+
+#### Options
+
+**Field** | **Type** | **Required** | **Description**
+--- | --- | --- | ---
+**`title`**       | `string`  | _Optional_ | Display title for server uses server address if not set.
+**`server`**      | `string`  | Required   | Server hostname or ip(:port) will use srv records.
+**`bedrock`**     | `boolean` | _Optional_ | If server is a bedrock edition server. (default false)
+**`showMods`**    | `boolean` | _Optional_ | Display mod list if available
+**`showPlayers`** | `boolean` | _Optional_ | Display player list if available
+**`showPlugins`** | `boolean` | _Optional_ | Display plugin list if available
+
+#### Example
+
+```yaml
+  - type: minecraft-status
+    options:
+      title: Venity Network
+      server: play.venitymc.com
+      bedrock: true
+      showMods: true
+      showPlayers: true
+      showPlugins: true
+```
+#### Info
+
+- **CORS**: 🟢 Enabled
+- **Auth**: 🟢 Not Required
+- **Price**: 🟢 Free 
+- **Host**: [Minecraft Server Status](https://mcsrvstat.us/)
+- **Privacy**: _See [Minecraft Server Status FAQ](https://mcsrvstat.us/faq)_
 
 ---
 
@@ -2400,7 +2440,7 @@ Here an example for Docker
 
 Glances can be launched with the `glances` command. You'll need to run it in web server mode, using the `-w` option for the API to be reachable. If you don't plan on using the Web UI, then you can disable it using `--disable-webui`. See the [command reference docs](https://glances.readthedocs.io/en/latest/cmds.html) for more info.
 
-If Glaces is running on a Windows system it is recommanded to add the following arguments ```--disable-plugin all --enable-plugin cpu,mem,diskio,ip,network,containers,quicklook,load,fs,alert -w``` This is due to Glances not being that stable on windows, so disabling all plugins that aren't used by Dashy widgets can save on ressources.
+If Glances is running on a Windows system it is recommended to add the following arguments ```--disable-plugin all --enable-plugin cpu,mem,diskio,ip,network,containers,quicklook,load,fs,alert -w``` This is due to Glances not being that stable on windows, so disabling all plugins that aren't used by Dashy widgets can save on ressources.
 
 #### Options
 
